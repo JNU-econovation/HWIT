@@ -89,7 +89,7 @@ moudule.exports = calc;
 
 ### Do it! Node.js 6강
 
-about 외장 모듈
+about 외장 모듈 nconf
 
 
 
