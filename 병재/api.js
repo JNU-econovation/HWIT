@@ -16,10 +16,9 @@ var xml2js = require('xml2js');
 var parser = new xml2js.Parser();
 
 request({
-    url: totalUrl,
-    method: 'GET'
-}, function (error, response, body) {
-
+      url: totalUrl,
+      method: 'GET'
+    }, function(error, response, body) {
   parser.parseString(body, function(err, result) {
     var obj = result.response.body[0].items[0].item;
     console.log(obj);

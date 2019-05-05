@@ -23,3 +23,16 @@
 - 경상북도
 - 경상남도
 
+
+
+> api 변수
+
+- departure : 객체
+  - depName : 출발역 이름
+  - depRegion : 출발지역
+- arrival : 지역
+  - arrName : 도착역 이름
+  - arrRegion : 도착지역
+- time : 문자열
+  - '20161001' : 2016년 10월 01일
+
